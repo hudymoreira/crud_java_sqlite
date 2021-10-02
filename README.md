@@ -11,3 +11,13 @@ javac Cadastro.java
 para executar o programa execute:
 
 java -classpath ".:sqlite-jdbc-3.36.0.3.jar" Cadastro
+
+###############################################3
+
+para compilar a segunda parte do cadastro que usa classes distintas para cada coisa usar:
+
+javac cadastro/Cadastro.java
+
+para executar o programa execute:
+
+java -cp ".:sqlite-jdbc-3.36.0.3.jar" cadastro/Cadastro
